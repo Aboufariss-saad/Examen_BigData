@@ -48,3 +48,14 @@ La société reçoit d’une manière contenu des fichiers CSV qui contient les 
 ![img1](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/7692739b-c20e-4c0a-a0a3-19e5c6673c62)
 2. Afficher d’une manière continue les deux mois de l’année en cours où il a y avait moins d’incidents.
 ![img2](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/71994804-2e0f-4290-8b9a-6bdd22a21171)
+
+## Partie 1 : Spark SQL 
+La société possède une application web pour gérer les réservations des vols, les données sont  stockées dans une base de données MYSQL nommée DB_AEROPORT, qui contient trois tables  VOLS et PASSAGERS et RESERVATIONS (Voir les figures 1, 2 et 3). 
+
+Travail à faire : 
+Vous créez la base de données et les tables et vous répondez aux questions suivantes :
+1. Afficher pour charque vol, le nombre de passagers selon le format d’affichage suivant : ID_VOL |DATE DEPART| NOMBRE
+   
+2. Afficher la liste des vols en cours selon le format d’affichage suivant : 
+ID_VOL |DATE DEPART| DATE ARRIVE
+
