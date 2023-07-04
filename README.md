@@ -18,3 +18,8 @@
 ![55](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/794b76e1-aaa5-4284-909f-891ccc34d998)
 ![66](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/f4f1cbb8-c21a-4cbf-9cec-8cef174d04e6)
 7. Affichez le contenu du fichier java.txt qui se trouve dans HDFS.
+![77](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/105644d4-f657-471a-b636-282488a6b566)
+8. Déterminez la taille du fichier cpp.txt qui se trouve dans HDFS. 
+![88](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/1cffb7df-4b93-4948-8cac-e1c662ada873)
+9. Déplacez le fichier cpp.txt vers /enset/bddc et vérifier si le fichier est bien déplacé.
+    
