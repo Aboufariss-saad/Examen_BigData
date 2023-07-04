@@ -28,4 +28,13 @@
 ![99](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/37577364-0553-434d-9554-6be9d51fe0dc)
 10. Supprimez les fichiers java.txt et cpp.txt dans HDFS.
 ![100](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/5a3489c2-341a-4cd5-b69d-073392796c66)
+# Exercice 2 : 
+On souhaite traiter des données des vols d’une société aérienne au moyen d’une application Spark  d’une manière parallèle est distribuée. L’entreprise possède des données stockées dans une base de  données relationnel et des fichiers CSV. L’objectif est de traiter ces données en utilisant Spark SQL  et SPARK Structured Streaming à travers les APIs DataFrame et Dataset pour extraire des  informations utiles afin de prendre des décisions.
 
+## Partie 2 : Importer et exporter des données avec SQOOP 
+On souhaite à travers cet exercice d’importer et exporter des données entre une base de données sur  MySQL et HDFS. 
+- On considère la base de données DB_AEROPORT dans MySQL contenant une table VOLS.
+- Importez les données de la table VOLS dans HDFS en utilisant SQOOP.
+  ### sqoop import --connect "jdbc:mysql://localhost:3306/db_aer" --username "root" --password "" --table vols --target-dir /vols
+- Créez un fichier nommé vols.txt, ajouter 3 vols, puis charger le fichier dans HDFS puis  l’exportez vers la table VOLS avec scoop. 
+   ### sqoop export --connect "jdbc:mysql://localhost:3306/db_aer" --username "root" --password "" --table vols --export-dir /enset/vols.txt   input-fields-terminated-by ',' --input-lines-terminated-by '\n'
