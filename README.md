@@ -45,6 +45,6 @@ La société reçoit d’une manière contenu des fichiers CSV qui contient les 
  id, description, no_avion, date 
  Travail à faire : 
 1. Afficher d’une manière continue l’avion ayant plus d’incidents.
-   
+![img1](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/7692739b-c20e-4c0a-a0a3-19e5c6673c62)
 2. Afficher d’une manière continue les deux mois de l’année en cours où il a y avait moins d’incidents.
-
+![img2](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/71994804-2e0f-4290-8b9a-6bdd22a21171)
