@@ -15,3 +15,6 @@
 ![3](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/ac43fb79-423c-470f-9de5-9cc8d8447192)
 ![4](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/93276492-e2d8-4b1e-9799-435eb35b2fb3)
 6. Afficher le contenu du répertoire /enset/bddc et /enset/glsid.
+![55](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/794b76e1-aaa5-4284-909f-891ccc34d998)
+![66](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/f4f1cbb8-c21a-4cbf-9cec-8cef174d04e6)
+7. Affichez le contenu du fichier java.txt qui se trouve dans HDFS.
