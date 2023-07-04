@@ -38,3 +38,13 @@ On souhaite à travers cet exercice d’importer et exporter des données entre 
   ### sqoop import --connect "jdbc:mysql://localhost:3306/db_aer" --username "root" --password "" --table vols --target-dir /vols
 - Créez un fichier nommé vols.txt, ajouter 3 vols, puis charger le fichier dans HDFS puis  l’exportez vers la table VOLS avec scoop. 
    ### sqoop export --connect "jdbc:mysql://localhost:3306/db_aer" --username "root" --password "" --table vols --export-dir /enset/vols.txt   input-fields-terminated-by ',' --input-lines-terminated-by '\n'
+
+## Partie 3: Traitement de données en streaming 
+La société reçoit d’une manière contenu des fichiers CSV qui contient les incidents dans les avions,  les fichiers sont stockés directement sur HDFS.  
+ Le format de données dans les fichiers csv et la suivante :  
+ id, description, no_avion, date 
+ Travail à faire : 
+1. Afficher d’une manière continue l’avion ayant plus d’incidents.
+   
+2. Afficher d’une manière continue les deux mois de l’année en cours où il a y avait moins d’incidents.
+
