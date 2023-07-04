@@ -34,6 +34,7 @@ On souhaite traiter des données des vols d’une société aérienne au moyen d
 La société possède une application web pour gérer les réservations des vols, les données sont  stockées dans une base de données MYSQL nommée DB_AEROPORT, qui contient trois tables  VOLS et PASSAGERS et RESERVATIONS (Voir les figures 1, 2 et 3). 
 
 ![11](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/4e5e35cc-585e-4295-8e2d-0a4c26eba9d0)
+
 Figure 1: Table Vols
 
 ![1](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/4137a86d-7eff-4a63-b7f0-01a4aa6e9568)
