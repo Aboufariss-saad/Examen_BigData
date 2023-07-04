@@ -1,4 +1,7 @@
-# Examen_BigData
+#                                                        Examen_BigData
+## Nom & Prénom :ABOUFARISS SAAD
+## Filière :II-BDCC
+
 # Exercice 1: Manipuler le système de fichiers HDFS  
 ## Tapez les commandes pour répondre aux questions suivantes : 
 1. Vérifiez la version Hadoop. 
@@ -22,4 +25,7 @@
 8. Déterminez la taille du fichier cpp.txt qui se trouve dans HDFS. 
 ![88](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/1cffb7df-4b93-4948-8cac-e1c662ada873)
 9. Déplacez le fichier cpp.txt vers /enset/bddc et vérifier si le fichier est bien déplacé.
-    
+![99](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/37577364-0553-434d-9554-6be9d51fe0dc)
+10. Supprimez les fichiers java.txt et cpp.txt dans HDFS.
+![100](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/5a3489c2-341a-4cd5-b69d-073392796c66)
+
