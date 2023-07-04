@@ -2,7 +2,8 @@
 # Exercice 1: Manipuler le système de fichiers HDFS  
 ## Tapez les commandes pour répondre aux questions suivantes : 
 1. Vérifiez la version Hadoop. 
-
+![11](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/b0527b49-08db-4744-a390-fc82ea043f63)
+![1](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/9968d092-74b3-40d9-8906-440d2c0da59f)
 2. Démarrez HDFS et vérifiez qu’il est en cours d’exécution.
    
 4. Créez deux nouveaux répertoires nommés /enset/bddc et /enset/glsid sur HDFS.
