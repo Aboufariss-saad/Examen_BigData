@@ -30,6 +30,26 @@
 ![100](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/5a3489c2-341a-4cd5-b69d-073392796c66)
 # Exercice 2 : 
 On souhaite traiter des données des vols d’une société aérienne au moyen d’une application Spark  d’une manière parallèle est distribuée. L’entreprise possède des données stockées dans une base de  données relationnel et des fichiers CSV. L’objectif est de traiter ces données en utilisant Spark SQL  et SPARK Structured Streaming à travers les APIs DataFrame et Dataset pour extraire des  informations utiles afin de prendre des décisions.
+## Partie 1 : Spark SQL 
+La société possède une application web pour gérer les réservations des vols, les données sont  stockées dans une base de données MYSQL nommée DB_AEROPORT, qui contient trois tables  VOLS et PASSAGERS et RESERVATIONS (Voir les figures 1, 2 et 3). 
+
+![11](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/4e5e35cc-585e-4295-8e2d-0a4c26eba9d0)
+Figure 1: Table Vols
+
+![1](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/4137a86d-7eff-4a63-b7f0-01a4aa6e9568)
+Figure 2: Table Passagers 
+
+![2](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/57eefc6c-3d4c-4ae7-960b-ecd07744ad7d)
+Figure 3: Table RESERVATIONS
+
+Travail à faire : 
+Vous créez la base de données et les tables et vous répondez aux questions suivantes :
+1. Afficher pour charque vol, le nombre de passagers selon le format d’affichage suivant : ID_VOL |DATE DEPART| NOMBRE
+![22](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/71c8ab86-89f9-484a-90a0-9dfbe4b43c38)
+
+2. Afficher la liste des vols en cours selon le format d’affichage suivant : 
+ID_VOL |DATE DEPART| DATE ARRIVE
+![33](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/e7f97661-4c86-410d-ae66-3ecad039e038)
 
 ## Partie 2 : Importer et exporter des données avec SQOOP 
 On souhaite à travers cet exercice d’importer et exporter des données entre une base de données sur  MySQL et HDFS. 
@@ -48,21 +68,4 @@ La société reçoit d’une manière contenu des fichiers CSV qui contient les 
 ![img1](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/7692739b-c20e-4c0a-a0a3-19e5c6673c62)
 2. Afficher d’une manière continue les deux mois de l’année en cours où il a y avait moins d’incidents.
 ![img2](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/71994804-2e0f-4290-8b9a-6bdd22a21171)
-
-## Partie 1 : Spark SQL 
-La société possède une application web pour gérer les réservations des vols, les données sont  stockées dans une base de données MYSQL nommée DB_AEROPORT, qui contient trois tables  VOLS et PASSAGERS et RESERVATIONS (Voir les figures 1, 2 et 3). 
-![11](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/4e5e35cc-585e-4295-8e2d-0a4c26eba9d0)
-Figure 1: Table Vols
-![1](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/4137a86d-7eff-4a63-b7f0-01a4aa6e9568)
-Figure 2: Table Passagers 
-![2](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/57eefc6c-3d4c-4ae7-960b-ecd07744ad7d)
-Figure 3: Table RESERVATIONS
-Travail à faire : 
-Vous créez la base de données et les tables et vous répondez aux questions suivantes :
-1. Afficher pour charque vol, le nombre de passagers selon le format d’affichage suivant : ID_VOL |DATE DEPART| NOMBRE
-![22](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/71c8ab86-89f9-484a-90a0-9dfbe4b43c38)
-
-2. Afficher la liste des vols en cours selon le format d’affichage suivant : 
-ID_VOL |DATE DEPART| DATE ARRIVE
-![33](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/e7f97661-4c86-410d-ae66-3ecad039e038)
 
