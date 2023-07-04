@@ -8,4 +8,6 @@
 3. Créez deux nouveaux répertoires nommés /enset/bddc et /enset/glsid sur HDFS.
 ![22](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/35de3019-941f-40cb-8ce8-17083ba3d189)
 ![2](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/452cf486-fbd8-4126-ba48-c28464011cbd)
-
+ 4. Créez un nouveau fichier java.txt contenant 10 lignes et cpp.txt contenant 10 lignes sur  votre système local. 
+![33](https://github.com/Aboufariss-saad/Examen_BigData/assets/96661067/8511ae30-2453-4ba5-a7ba-3e81f6931ff7)
+5. Charger le fichier java.txt dans /enset/bddc et cpp.txt dans /enset/glsid sur HDFS.
